@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    background-color: #898AA6;
+    font-size: 20px;
+}
+
+label {
+    font-size: 36px;
+}
+
+input {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.passinfo {
+    font-size: 18px;
+    color: #C9BBCF;
+}
+
+.char:hover {
+  color:#C9BBCF;
+}
+
+.letters:hover {
+  color:#B7D3DF;
+}
+
+
+.numbers:hover {
+  color:#D6EFED;
+}
+
+
+
+.footer {
+  margin-top: 140px;
+  margin-bottom: 20px;
+}
